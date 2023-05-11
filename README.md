@@ -13,7 +13,7 @@ The menu "slides" off the screen, then after the sliding has completed (after a 
 the "active" class is toggled off, which causes the css to revert back to display: none.
 
 
-
+<br><br><br>
 
 
 05-09-2023 - Two-Tiered Navigation Menu - Fully Responsive
