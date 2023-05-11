@@ -5,9 +5,9 @@
 
 Finally fixed the "mobile-menu sliding off the screen but still being visible if you scroll" issue.
 I added a js function that toggles an "active" class on or off on the navmenu element.
-I then use the "active" class to set the display property to "block" if it is active and "none" if not active..
+I then use the "active" class to set the display property to "block" if it is active and "none" if not active.
 
-More importantly, I added a setTimeout method so the display can be turned on before the transform/transition properties kick in,
+More importantly, I added a setTimeout method so the display property can be set to "block" before the transform/transition properties kick in,
 allowing the menu to "slide" onto the screen. I also had to set it up to work in the other direction as well.
 The menu "slides" off the screen, then after the sliding has completed (after a 300 millisecond timeout),
 the "active" class is toggled off, which causes the css to revert back to display: none.
