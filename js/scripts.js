@@ -18,23 +18,23 @@ function toggleMenu() {
             setTimeout(toggleMenu, 100);
         }
     }
-    // if isVisible is true, then set both data-visible attributes to false, then 
-    // call dataDisplay to turn off the active class after a 300ms delay.
-    // the delay allows the css to slide the menu out the bottom of the screen
-    // before the menu display property is set to none. 
-    // without the delay, the transform & transition properties don't work.
     else {
+        // if isVisible is true, then set both data-visible attributes to false, then 
+        // call dataDisplay to turn off the active class after a 300ms delay.
+        // the delay allows the css to slide the menu out the bottom of the screen
+        // before the menu display property is set to none. 
+        // without the delay, the transform & transition properties don't work.
         navigationMenu.setAttribute("data-visible", "false");
         navigationButton.setAttribute("data-visible", "false");
         setTimeout(dataDisplay, 300);
     }
 
-    // toggles the "active" class on and off for the navmenu. If active,
-    // display is set to block in the css. If off, display reverts
-    // back to none, which is the value set in the media query.
-    // It is necessary to set the display to none so the menu can't be seen
-    // when the user scrolls down.
     function dataDisplay() {
+        // Toggles the "active" class on and off for the navmenu. If active,
+        // display is set to block in the css. If off, display reverts
+        // back to none, which is the value set in the media query.
+        // It is necessary to set the display to none so the menu can't be seen
+        // when the user scrolls down.
         navigationMenu.classList.toggle("active");
     }
 }
