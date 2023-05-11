@@ -1,7 +1,6 @@
 const navigationMenu = document.getElementById("navmenu");
 const navigationButton = document.getElementById("toggle-menu");
 
-
 function toggleMenu() {
     let isVisible = navigationMenu.getAttribute("data-visible");
 
@@ -39,22 +38,4 @@ function toggleMenu() {
     }
 }
 
-
-
-// function closeMobile() {
-//     if(window.outerWidth > 767) {
-//         navigationMenu.setAttribute("data-visible", "true");
-//         navigationButton.setAttribute("data-visible", "true");
-//         setTimeout(dataDisplay("true"), 300);
-//     }
-//     else {
-//         navigationMenu.setAttribute("data-visible", "false");
-//         navigationButton.setAttribute("data-visible", "false");
-//         setTimeout(dataDisplay("false"), 300);
-        
-//     }
-
-// }
-
 navigationButton.addEventListener("click", toggleMenu);
-window.addEventListener("resize", closeMobile);
