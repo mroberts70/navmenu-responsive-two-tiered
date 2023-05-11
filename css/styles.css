@@ -21,8 +21,8 @@ header {
     justify-content: center;
 }
 header img {
-    max-width: 200px;
-    margin: 2vh;
+    max-width: 400px;
+    margin: 1vh;
 }
 .navmenu {
     display: block;
@@ -35,7 +35,7 @@ header img {
     border-bottom: 1px solid rgba(255, 255, 255, 0.295);
 }
 .navmenu > div {
-    flex: 0 1 10%;
+    flex: 0 1 5%;
 }
 .navmenu a {
     display: block;
@@ -105,6 +105,9 @@ footer p {
 @media (max-width: 767px) {
     header {
         justify-content: center;
+    }
+    header img {
+        max-width: 75%;
     }
     .navmenu {
         display: none;
