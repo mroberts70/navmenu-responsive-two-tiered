@@ -1,7 +1,18 @@
 # twotiermenu-responsive
 
+2023-05-11 10:17pm - Made some more edits to the mobile menu.
+- upgraded the mobile display-toggle button with better background images
+- changed the slide direction to the left side - seems more intuitive
+- added some album covers because, just because.
+- added a linear gradient to the navmenu in full screen 
 
-05-11-2023 - Fixed the issue of the mobile menu being visible off screen:
+This bad boy is ready for replication into other projects, IMO.
+
+
+<br><br><br>
+
+
+2023-05-11 - Fixed the issue of the mobile menu being visible off screen:
 
 Finally fixed the "mobile-menu sliding off the screen but still being visible if you scroll" issue.
 I added a js function that toggles an "active" class on or off on the navmenu element.
@@ -16,7 +27,7 @@ the "active" class is toggled off, which causes the css to revert back to displa
 <br><br><br>
 
 
-05-09-2023 - Two-Tiered Navigation Menu - Fully Responsive
+2023-05-09 - Two-Tiered Navigation Menu - Fully Responsive
 
 The mobile-menu slides up and down from the bottom of the screen. 
 
