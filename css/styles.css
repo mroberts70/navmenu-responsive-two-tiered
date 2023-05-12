@@ -36,6 +36,8 @@ header a img {
     position: relative;
     border-top: 1px solid rgba(255, 255, 255, 0.295);
     border-bottom: 1px solid rgba(255, 255, 255, 0.295);
+    position: sticky;
+    top: 0;
 }
 .navmenu > div {
     flex: 0 1 5%;
@@ -134,6 +136,7 @@ footer p {
     }
     .navmenu {
         display: none;
+        position: relative;
         z-index: 99;
         flex-direction: column;
         justify-content: flex-start;
