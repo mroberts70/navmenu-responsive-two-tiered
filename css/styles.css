@@ -96,9 +96,9 @@ section div {
     gap: 2vh;
 }
 section img {
-    max-width: 200px;
+    max-width: 350px;
     width: 100%;
-    flex: 0 1 1fr;
+    /* flex: 0 1 max-content; */
 }
 
 footer {
