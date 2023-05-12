@@ -1,5 +1,16 @@
 # twotiermenu-responsive
 
+05-11-2023 10:17pm - Made some more edits to the mobile menu.
+- upgraded the mobile display-toggle button with better background images
+- changed the slide direction to the left side - seems more intuitive
+- added some album covers because, just because.
+- added a linear gradient to the navmenu in full screen 
+
+This bad boy is ready for replication into other projects, IMO.
+
+
+<br><br><br>
+
 
 05-11-2023 - Fixed the issue of the mobile menu being visible off screen:
 
