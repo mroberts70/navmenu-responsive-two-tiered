@@ -3,6 +3,7 @@
 2023-05-11 10:17pm - Made some more edits to the mobile menu.
 - upgraded the mobile display-toggle button with better background images
 - changed the slide direction to the left side - seems more intuitive
+- made fullscreen navmenu position sticky
 - added some album covers because, just because.
 - added a linear gradient to the navmenu in full screen 
 
