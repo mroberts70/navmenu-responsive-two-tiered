@@ -39,3 +39,5 @@ function toggleMenu() {
 }
 
 navigationButton.addEventListener("click", toggleMenu);
+
+document.querySelector("#copyright").textContent = new Date().getFullYear();
