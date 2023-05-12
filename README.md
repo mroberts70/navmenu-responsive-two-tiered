@@ -1,8 +1,8 @@
-# twotiermenu-responsive
+# navmenu-responsive-two-tiered
 
 # WORKING TEMPLATE FOR A FULLY RESPONSIVE NAVIGATION MENU WITH 2 TIERS
 
-<br><BR>
+<br><br>
   
 2023-05-11 - Fixed the issue of the mobile menu being visible off screen:
 
