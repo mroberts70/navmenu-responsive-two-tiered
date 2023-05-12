@@ -5,7 +5,7 @@
 }
 html {
     background-color: black;
-    min-height: 100%;
+    /* min-height: 100%; */
     z-index: 1;
 }
 body {
@@ -13,7 +13,7 @@ body {
     font-family: 'Josefin Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100%;
     color: whitesmoke;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
@@ -88,6 +88,7 @@ section {
     align-items: center;
 }
 section div {
+    padding: 3vw;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -95,7 +96,8 @@ section div {
     gap: 2vh;
 }
 section img {
-    max-width: 500px;
+    max-width: 200px;
+    width: 100%;
     flex: 0 1 1fr;
 }
 
@@ -186,6 +188,9 @@ footer p {
     }
     section {
         padding: 2vh 0;
+    }
+    section div {
+        height: auto;
     }
     section img {
         max-width: 100%;
