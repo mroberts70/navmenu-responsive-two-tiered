@@ -136,6 +136,7 @@ footer p {
         max-width: 300px;
         margin: 0 auto;
     }
+    
     .navmenu {
         display: none;
         position: relative;
@@ -152,10 +153,22 @@ footer p {
         transform: translateX(-100%);
         transition: transform 300ms linear;
     }
-
+    .toggle-menu {
+        display: block;
+    }
+    .toggle-menu[data-visible="true"] {
+        background-image: url("../images/closemobile.png");
+    }
+    .navmenu[data-visible="true"] {
+        transform: translateX(0%);
+    }
+    .navmenu.active {
+        display: block;
+    }
     .navmenu > div {
         width: 100%;
     }
+    
     .submenu-content {
         background-color: transparent;
         position: relative;
@@ -172,19 +185,6 @@ footer p {
     }
     .submenu-content a {
         padding-left: 5vh;
-    }
-    .toggle-menu {
-        display: block;
-    }
-    .toggle-menu[data-visible="true"] {
-        background-image: url("../images/closemobile.png");
-
-    }
-    .navmenu[data-visible="true"] {
-        transform: translateX(0%);
-    }
-    .navmenu.active {
-        display: block;
     }
     section {
         padding: 2vh 0;
