@@ -1,4 +1,4 @@
-// Tottle Menu
+// Begin Toggle Menu
 const navigationMenu = document.getElementById("navmenu");
 const navigationButton = document.getElementById("toggle-menu");
 
