@@ -1,3 +1,4 @@
+// Tottle Menu
 const navigationMenu = document.getElementById("navmenu");
 const navigationButton = document.getElementById("toggle-menu");
 
@@ -39,5 +40,6 @@ function toggleMenu() {
 }
 
 navigationButton.addEventListener("click", toggleMenu);
+// End Toggle Menu
 
 document.querySelector("#copyright").textContent = new Date().getFullYear();
